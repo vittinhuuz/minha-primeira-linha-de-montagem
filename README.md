@@ -1,0 +1,1 @@
+[![Linha de Montagem Matrix](https://github.com/vittinhuuz/minha-primeira-linha-de-montagem/actions/workflows/linha-de-montagem.yml/badge.svg)](https://github.com/vittinhuuz/minha-primeira-linha-de-montagem/actions/workflows/linha-de-montagem.yml)
