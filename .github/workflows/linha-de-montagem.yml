@@ -13,3 +13,13 @@ jobs:
 
       - name: 3. Estação de Teste
         run: echo "Testando o produto..."
+# Novo passo para criar um arquivo real
+      - name: 3.5. Fabricar o produto real
+        run: echo "Este é o nosso produto final!" > produto.txt
+
+      # Novo passo para salvar o arquivo (Artefato)
+      - name: 4. Empacotar o produto final (Artefato)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pacote-do-produto
+          path: produto.txt
